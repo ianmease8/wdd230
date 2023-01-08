@@ -2,11 +2,10 @@ let date = new Date();
 let year = date.getFullYear();
 
 
-document.querySelector('p').innerHTML = year + ' &copy;'; 
+document.querySelector('#feets').innerHTML ='&copy;'+ year; 
 
 let currentdate = document.lastModified;
 
-document.querySelector('div').innerHTML = 'Last updated: ' + currentdate;
+document.querySelector('#modified').innerHTML = 'Last updated: ' + currentdate;
 
-document.querySelector('div').innerHTML = `Last updated: ${currentdate}`;
 
